@@ -1,0 +1,43 @@
+/* Resets */
+body {
+  margin: 0;
+}
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Page styles */
+@font-face {
+  font-family: precious;
+  src: url(fonts/Precious.ttf);
+}
+
+/* Custom styles */
+body {
+  font-family: 'Lato';
+}
+
+.title {
+  font-family: precious;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  color: rgb(40, 40, 40);
+}
+
+.year {
+  opacity: 0.2;
+  padding: 0 20px;
+}
+
+.day {
+  text-align: center;
+  margin: 40px;
+  border: 1px dashed rgba(0,0,0,0.1);
+}
+
+.n-a {
+  color: rgb(200, 200, 200);
+}
+
